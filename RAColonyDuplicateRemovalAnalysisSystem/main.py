@@ -23,14 +23,14 @@ warnings.filterwarnings('ignore')
 
 # Import compiled algorithm module
 try:
-    import colony_picking_algorithm11
-    from colony_picking_algorithm11 import ColonyPicking, calPickedCount, run_analysis, clean_numeric_data
+    import colony_picking_algorithm
+    from colony_picking_algorithm import ColonyPicking, calPickedCount, run_analysis, clean_numeric_data
 
     print("Using compiled colony_picking_algorithm module")
 except ImportError:
     try:
-        import colony_picking_algorithm11
-        from colony_picking_algorithm11 import ColonyPicking, calPickedCount, run_analysis, clean_numeric_data
+        import colony_picking_algorithm
+        from colony_picking_algorithm import ColonyPicking, calPickedCount, run_analysis, clean_numeric_data
 
         print("Using Python colony_picking_algorithm module")
     except ImportError:
