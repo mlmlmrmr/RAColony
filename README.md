@@ -3,8 +3,7 @@
 
 🎯 Quick Start
 
-###  First you need to extract the RAColony/Colony Analyzer/models.zip file 
-
+###  First you need to extract the RAColony/Colony Analyzer/models.zip file to ensure that the adhesion segmentation algorithm works correctly
 
 Because the software will automatically decompress the deep learning model file for the first time, it may take a long time. Please wait patiently.
 
